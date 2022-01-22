@@ -1,13 +1,17 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
+    margin-bottom: 15;
+    margin-left: 0px;
+    padding: 0;
   }
   h1 {
     margin-bottom: 15px;
+    position: relative;
   }
   
   p {
-    border: 10px solid rgb(209, 206, 28);
+    border: 2px solid rgb(0, 0, 0);
     background-color: #A52A2A;
     width: 90%;
     height: 150px;
@@ -18,8 +22,12 @@
   }
   
   /* Simple Responsive Framework. */
-  .row {
+  .row > div{
+    position: relative;
     width: 100%;
+    top: 33px;
+    padding-left:0px;
+    float: right;
   }
   
   /********** Large devices only **********/
