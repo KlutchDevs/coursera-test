@@ -8,17 +8,18 @@
   h1 {
     margin-bottom: 15px;
     position: relative;
+    text-align: center;
   }
   
   p {
     border: 2px solid rgb(0, 0, 0);
-    background-color: #115ae0;
+    background-color: #a1a2a3;
     width: 90%;
     height: 150px;
     margin-right: auto;
     margin-left: auto;
     font-family: Helvetica;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   #title{
     border: 2px solid rgb(0, 0, 0);
@@ -30,6 +31,7 @@
     height: 25px;
   
   }
+
   /* Simple Responsive Framework. */
   .row {
     position: relative;
@@ -38,6 +40,40 @@
     padding-left:0px;
     float: right;
   }
+
+  #beefboxframe{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+
+    /*height: 500px;*/
+  }
+  /*set height of all menu item frames */
+  .col-lg-4.col-md-6.col-xs-12{
+    height: 183px;
+  }
+  /*floating removes it from document flow. use*/
+  #beef_tab{
+    width: 30%;
+    height: 18%;
+    text-align: center;
+    float: right;
+    border: 2px solid black;
+    background-color: lightcoral;
+    color: black;
+    
+  }
+  #beef_description{
+    float: left;
+  }
+  span#beef_description{
+    width: 98%;
+    padding: 4px;
+    text-align: left;
+    border-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   
   /********** Large devices only **********/
   @media (min-width: 992px) {
@@ -81,16 +117,9 @@
     .col-lg-12 {
       width: 100%;
     }
-    p {
-      border: 2px solid rgb(0, 0, 0);
+    /*p {
       background-color: #22e011;
-      width: 90%;
-      height: 150px;
-      margin-right: auto;
-      margin-left: auto;
-      font-family: Helvetica;
-      color: white;
-    }
+    }*/
   }
   
   /********** Medium devices only **********/
@@ -179,14 +208,7 @@
       width: 100%;
     }
     p {
-      border: 2px solid rgb(0, 0, 0);
       background-color: #880e0a;
-      width: 90%;
-      height: 150px;
-      margin-right: auto;
-      margin-left: auto;
-      font-family: Helvetica;
-      color: white;
     }
   }
   
