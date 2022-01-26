@@ -62,6 +62,11 @@
     color: black;
     
   }
+  #beef_box{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
   #beef_description{
     float: left;
   }
